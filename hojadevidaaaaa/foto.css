@@ -1,0 +1,9 @@
+/* Estilos para la imagen de perfil */
+.profile-pic {
+    border-radius: 0; /* Elimina el redondeado para que sea completamente cuadrado */
+    border: 5px solid #000000; /* Borde negro de 5px */
+    width: 150px; /* Ancho de la imagen */
+    height: 150px; /* Altura de la imagen, asegurando que sea cuadrada */
+    object-fit: cover; /* Asegura que la imagen se recorte bien dentro del contenedor */
+    margin-bottom: 20px; /* Añade espacio debajo de la imagen */
+}

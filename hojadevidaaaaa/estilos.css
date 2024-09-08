@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.left-column {
+    background-color: #2d736f;
+    color: #fff;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.left-column h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-info, .skills, .education {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.contact-info h3, .skills h3, .education h3 {
+    font-size: 18px;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-info p, .skills ul, .education p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.skills ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.right-column {
+    padding: 20px;
+    width: 70%;
+}
+
+.right-column h2 {
+    color: #2d736f;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.right-column p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.right-column ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.right-column strong {
+    font-size: 16px;
+}
+
